@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 180px;
+  width: 40%;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff33;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-url {
+  width: auto;
+  height: 80px;
+}
+
+.card-heading {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .list-item {
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto 20px;
+  }
+
+  .image-url {
+    width: 100px;
+    height: 100px;
+  }
+  .card-heading {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+  }
+}
